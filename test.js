@@ -18,3 +18,5 @@ function DOMEffect(text$) {
     container.textContent = text
   })
 }
+
+DOMEffect(main())
