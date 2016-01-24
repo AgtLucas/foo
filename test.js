@@ -12,7 +12,7 @@ function main () {
     .map(i => `Seconds elapsed ${i}`)
 }
 
-function DOMEffect(text$) {
+function DOMEffect (text$) {
   text$.subscribe(text => {
     const container = document.querySelector('#app')
     container.textContent = text
